@@ -1,0 +1,10 @@
+.image{
+    height: 200px;
+    width: 200px;
+  margin: 20px;
+}
+.Home {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+.About{
+    margin: 40px;
+    text-align: center;
+}
+.About h3{
+    text-decoration: underline;
+}
+.About p{
+text-align: justify;    
+}
