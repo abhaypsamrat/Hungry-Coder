@@ -16,6 +16,7 @@ const SmartText = ({ text, length = 40 }) => {
         }}
       ></p>
       <a
+       href="#/"
         style={{ color: "green", cursor: "pointer" }}
         onClick={() => setShowLess(!showLess)}
       >
@@ -37,12 +38,24 @@ function Blog() {
       <div className="card">
         <SmartText
           text={
-            "How To Create React App" +
-            "hello" +
+            "How To Create React App " +
+            "hello " +
+            "To get an overview of what React is, you can write React code directly in HTML." +
+            "To get an overview of what React is, you can write React code directly in HTML." +
             "To get an overview of what React is, you can write React code directly in HTML." +
             "To get an overview of what React is, you can write React code directly in HTML."
-            + "To get an overview of what React is, you can write React code directly in HTML."
-            + "To get an overview of what React is, you can write React code directly in HTML."
+          }
+        />
+        <br />
+        <br />
+        <SmartText
+          text={
+            "How To Create React App " +
+            "hello " +
+            "To get an overview of what React is, you can write React code directly in HTML." +
+            "To get an overview of what React is, you can write React code directly in HTML." +
+            "To get an overview of what React is, you can write React code directly in HTML." +
+            "To get an overview of what React is, you can write React code directly in HTML."
           }
         />
         <br />
