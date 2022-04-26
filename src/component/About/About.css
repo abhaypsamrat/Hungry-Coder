@@ -8,3 +8,32 @@
 .About p{
 text-align: justify;    
 }
+.instagram-social, 
+.linkedin-social, 
+.github-social ,
+.twitter-social{
+    margin: 55px;
+    padding-top: 90px;
+    font-size: 35px;
+}
+.instagram-social{
+    color: rgb(205, 66, 66);
+}
+.linkedin-social{
+    color: #0e76a8;
+}
+.github-social{
+    color: black;
+}
+.twitter-social{
+    color: #00acee;
+}
+@media (max-width: 720px) {
+    .instagram-social, 
+    .linkedin-social, 
+    .github-social ,
+    .twitter-social{
+        margin: 15px;
+        font-size: 30px;
+    }
+}
