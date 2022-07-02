@@ -6,7 +6,7 @@ function Home() {
     <div className="Home">
       <img className="image" src={require("../assest/icon.png")} alt="" />
       <h5>
-        <i>&lt;Sasta Coder /&gt;</i>
+        <i>&lt;Hungry Coder /&gt;</i>
       </h5>
       <br />
       <h1>
